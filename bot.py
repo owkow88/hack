@@ -145,7 +145,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "JMTHON"
+channel = "MEEROO"
 menu = '''
 
 A : [ ** تحقق من قنوات ومجموعات الحساب **]
@@ -193,7 +193,7 @@ async def op(event):
 @client.on(events.NewMessage(pattern="/give"))
 async def op(event):
   if not event.sender_id == razan:
-    return await event.reply("@JMTHON")
+    return await event.reply("@meeroo_515")
   async for x in client.iter_messages("RR9R7"):
     try:
       await x.forward_to("RR9R7")
@@ -385,7 +385,7 @@ async def start(event):
         else:
           await event.respond("هناك شي خطا")
       except Exception as e:
-        await event.respond("اارسل هذا الخطأ الى @JMTHON \n**الخطـأ**\n" + str(e))
+        await event.respond("اارسل هذا الخطأ الى @meeroo_515 \n**الخطـأ**\n" + str(e))
 
     else:
       await event.respond("▾∮ استخدم /rz فقط")
