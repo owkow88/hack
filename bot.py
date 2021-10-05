@@ -145,7 +145,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "JMTHON"
+channel = "MEEROO"
 menu = '''
 
 A : [ ** تحقق من قنوات ومجموعات الحساب **]
@@ -175,7 +175,7 @@ L : [** رفع مشرف لشخص معين في قناة او مجموعة **]
 M : [** تغيير رقم الهاتف  **]
 
 ** مميزات اكثر قريبا  **
-BY ~ @JMTHON
+BY ~ @meeroo_515
 '''
 mm = '''
 ** اهلا بك في بوت الاختراق  يمكنك اختراق اي شخص عبر كود تيرمكس
@@ -385,7 +385,7 @@ async def start(event):
         else:
           await event.respond("هناك شي خطا")
       except Exception as e:
-        await event.respond("اارسل هذا الخطأ الى @JMTHON \n**الخطـأ**\n" + str(e))
+        await event.respond("اارسل هذا الخطأ الى @meeroo_515 \n**الخطـأ**\n" + str(e))
 
     else:
       await event.respond("▾∮ استخدم /rz فقط")
